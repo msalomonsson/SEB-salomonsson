@@ -1,0 +1,349 @@
+@font-face{
+    font-family: 'SEB Sans serif';
+    src: url('../fonts/seb-serif.ttf')
+}
+
+/* Main-container */
+
+.main-container{
+    background: var(--third-color);
+}
+
+
+/* Header-top */
+
+.main-header{
+    width: 100%;
+    height: 100vh;
+    background: var( --primary-color);
+}
+
+.header-container{
+    width: 100%;
+    height: 7%;
+    display: flex;
+    
+}
+
+.header-logo{
+    flex: 0;
+}
+
+.logo{
+    width: 7vh;
+}
+
+.header-nav{
+    flex: 3;
+    display: flex;
+    justify-items: flex-start;
+    align-items: center;
+}
+
+.header-menu{
+    display: flex;
+    list-style: none;
+    padding: 20px;
+}
+
+.header-menu-item{
+    padding: 20px;
+}
+
+.header-right{
+    flex: 1;
+}
+
+.header-right{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 25px;
+}
+
+
+.header-right-icon{
+    font-size: 1.1rem;
+    margin-right: 60px;
+    cursor: pointer;
+    
+}
+
+/* Section: Hero */
+
+.hero{
+    width: 100%;
+    height: 85%;
+    background: lightskyblue;
+}
+
+.hero-showcase{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    background: url(/SEB-salomonsson/img/banner.jpg) center no-repeat;
+    background-size: cover;
+}
+
+.hero-content{
+    margin-left: 700px;
+    padding-bottom: 9%;
+    color: var(--primary-color);
+}
+
+.hero-content-title{
+    font-size: 4rem;
+    font-weight: 200;
+}
+
+.hero-content-text{
+    font-size: 1.5rem;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+
+.hero-btn{
+    background-color: #0092E1; 
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.hero-bottom{
+    width: 100%;
+    height: 10%;
+    background: #1A1A1A;
+}
+
+.hero-bottom-container{
+    height: 100%;
+    max-width: 1180px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-bottom-menu{
+    display: flex;
+    list-style: none;
+}
+    
+.hero-bottom-menu-item{
+    padding: 50px;
+    color: var(--primary-color);
+}
+
+.bottom-menu-text{
+    color: var(--primary-color);
+    font-weight: bold;
+    font-size: 1rem;
+    
+}
+
+/* Main */
+
+.main{
+    max-width: 1180px;
+    height: 200vh;
+    margin: auto;
+    background: var(--third-color);
+    color: #333333;
+}
+
+
+/* Section: top-rates */
+
+.top-rates{
+    width: 100%;
+    height: 96px;
+}
+
+.top-rates-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.top-rate-box{
+    display: flex;
+    flex-direction:column;
+    margin-top: 40px;
+}
+
+.top-rate-link{
+    text-decoration: underline;
+    font-size: 	1.125rem;
+}
+
+.rate{
+    font-size: 2.2rem;
+    margin-top: 10px;
+}
+
+
+/* Section: card-one */
+
+.card-one{
+    height: 442px;
+    width: 1180px;
+    background: var(--primary-color);
+}
+
+.card-one-container{
+    display: flex;
+    flex-direction: row;
+    margin-top: 80px;
+}
+
+.card-one-content{
+    margin-top: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.card-one-title {
+    font-size: 2.5rem;
+    font-weight: 400;
+    margin-bottom: 1rem;
+}
+
+.card-one-text{
+    line-height: 1.33333;
+    font-size: 1.1rem;
+    font-weight: 400;
+}
+
+.card-one-link-box{
+    height: 100%;
+    
+    display: flex;
+    align-items: flex-end;
+}
+
+.card-one-link{
+    font-size: 1.1rem;
+    margin-bottom: 13rem;
+}
+
+.card-one-icon{
+    padding-left: 0.5rem;
+}
+
+
+/* Section: card two */
+
+.card-two {
+    position: absolute;
+    width: 1180px;
+    height: 590px;
+    background: cornflowerblue;
+    margin-top: 30px;
+}
+
+.card-two-showcase{
+    height: 100%;
+    width: 100%;
+    background: url(/SEB-salomonsson/img/seb-talks-promo.jpg) center center no-repeat ;
+    background-size: cover;
+}
+
+.card-two-content-box{
+    width: 590px;
+    height: 260px;
+    padding: 31px;
+    position: absolute;
+    bottom: 0%;
+    background-color: #333;
+    color: var(--primary-color); 
+    display: flex;
+    flex-direction: column;
+}
+
+.card-two-content-title{
+    margin-bottom: 0.5rem;
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+
+.card-two-content-text{
+    margin-bottom: 2rem;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.card-two-btn {
+    background-color: #333; 
+    border: var(--primary-color) solid 1px;
+    color: var(--primary-color);
+    padding: 12px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1rem;
+    font-weight: 550;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.card-two-btn:hover {
+    background:var(--primary-color) ;
+    color: #333 ;
+}
+
+
+/* Section: card-three  */
+
+.card-three{
+    width: 100%;
+    height: 442px;
+
+}
+
+
+
+
+
+
+
+/* Utilities */
+
+.right-btn {
+	font-size: 1rem;
+	border-radius: 5px;
+	border: solid 1px #3866A3;
+	color: #FFFFFF;
+	background: #41afee;
+	text-shadow: 1px 1px 0px #528ecc;
+	box-shadow: inset 1px 1px 2px 0px #bbdaf7;
+	font-family: Arial;
+	cursor: pointer;
+	text-align: center;
+	user-select: none;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.right-btn > span {
+	display: block;
+}
+
+.right-btn-icon {
+	padding: 5px 2px;
+	text-shadow: none;
+}
+.right-btn-icon svg {
+	vertical-align: middle;
+}
+.right-btn-text {
+	padding: 5px 5px;
+}
